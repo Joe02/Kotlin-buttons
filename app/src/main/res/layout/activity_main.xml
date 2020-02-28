@@ -6,6 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+    <!-- Aqui no XML da atividade principal podemos simplesmente utilizar uma tag
+    de <fragment> para informarmos ao aplicativo que queremos por um fragmento
+    qualquer aqui e ele atuará na tela da atividade principal -->
     <fragment
         android:id="@+id/buttons_fragment"
         class="com.example.buttonstest.ButtonsFragment"
